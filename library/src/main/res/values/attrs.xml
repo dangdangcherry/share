@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--shape绘制view-->
+    <declare-styleable name="ShapeView">
+        <attr name="touchSolidColor" format="color"/>
+        <attr name="solidColor" format="color"/>
+        <attr name="cornesRadius" format="dimension"/>
+        <attr name="topLeftRadius" format="dimension"/>
+        <attr name="topRightRadius" format="dimension"/>
+        <attr name="bottomLeftRadius" format="dimension"/>
+        <attr name="bottomRightRadius" format="dimension"/>
+        <attr name="stroke_Width" format="dimension"/>
+        <attr name="stroke_Color" format="color"/>
+        <attr name="strokeDashWidth" format="dimension"/>
+        <attr name="strokeDashGap" format="dimension"/>
+        <attr name="touchTextColor" format="color"></attr>
+        <attr name="enableColor" format="color"></attr>
+        <attr name="enableTextColor" format="color"></attr>
+        <attr name="shapeType">
+            <enum name="LINEAR_GRADIENT" value="0"/>
+            <enum name="OVAL" value="1"/>
+            <enum name="LINE" value="2"/>
+            <enum name="RING" value="3"/>
+        </attr>
+
+    </declare-styleable>
+    <!--banner B-->
+    <declare-styleable name="CirclePageIndicator">
+        <attr name="centered" format="boolean" />
+        <attr name="fillColor" format="color" />
+        <attr name="pageColor" format="color" />
+        <attr name="android:orientation" />
+        <attr name="radius" format="dimension" />
+        <attr name="snap" format="boolean" />
+        <attr name="strokeColor" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="android:background" />
+    </declare-styleable>
+    <declare-styleable name="LinesPageIndicator">
+        <attr name="centered" />
+        <attr name="fillColor" />
+        <attr name="pageColor" />
+        <attr name="android:orientation" />
+        <attr name="radius" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="snap" />
+        <attr name="strokeColor" />
+        <attr name="strokeWidth" />
+        <attr name="android:background" />
+        <attr name="keepCircle" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LoopViewStyle">
+        <attr name="dot_radius" format="dimension|reference" />
+        <attr name="enable_auto_loop" format="boolean" />
+        <attr name="loop_interval" format="integer" />
+        <attr name="dot_normal_color" format="color|reference" />
+        <attr name="dot_selected_color" format="color|reference" />
+        <attr name="indicator_bar_background_color" format="color|reference" />
+        <attr name="show_indicator" format="boolean" />
+        <attr name="height_width_ratio" format="float" />
+        <attr name="indicator_bar_height" format="dimension|reference" />
+        <attr name="title_color" format="color|reference" />
+        <attr name="clip_children" format="boolean" />
+        <attr name="child_offset" format="dimension" />
+        <attr name="child_margin" format="dimension" />
+        <attr name="child_corner_size" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension"/>
+        <attr name="verticalSpacing" format="dimension"/>
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="debugDraw" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean"/>
+        <attr name="layout_horizontalSpacing" format="dimension"/>
+        <attr name="layout_verticalSpacing" format="dimension"/>
+    </declare-styleable>
+</resources>

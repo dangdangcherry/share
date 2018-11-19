@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Dialog_Base" parent="Theme.AppCompat.Dialog">
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:windowElevation">0dp</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

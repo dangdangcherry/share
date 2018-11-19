@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#35393c"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:orientation="horizontal"
+        android:padding="18dp">
+
+
+        <com.wx.wheelview.widget.WheelView
+            android:id="@+id/timer_start_h"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <com.wx.wheelview.widget.WheelView
+            android:id="@+id/timer_start_m"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <com.wx.wheelview.widget.WheelView
+            android:id="@+id/timer_end_h"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <com.wx.wheelview.widget.WheelView
+            android:id="@+id/timer_end_m"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_sun_day"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/sel_timer_select"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周日"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/cb_monday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/sel_timer_select"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周一"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/cb_tuesday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/sel_timer_select"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周二"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/cb_wednesday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/sel_timer_select"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周三"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/cb_thursday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/sel_timer_select"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周四"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/cb_friday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/sel_timer_select"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周五"
+            android:textColor="@color/white" />
+
+        <CheckBox
+            android:id="@+id/cb_saturday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/sel_timer_select"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周六"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</LinearLayout>
+

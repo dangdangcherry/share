@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--动画 E--><!--动画 B-->
+    <style name="pw_slide">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="pw_slide_down">
+        <item name="android:windowEnterAnimation">@anim/slide_in_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_top</item>
+    </style>
+
+    <style name="Divider_Horizontal">
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <style name="Divider_Horizontal_Margin">
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+    </style>
+
+    <style name="Divider_Vertical">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <style name="Divider_Vertical_Margin">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+    <style name="Dialog_Base" parent="Theme.AppCompat.Dialog">
+        <item name="android:backgroundDimAmount">0.4</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- View style B-->
+    <!-- 圆边文本输入框-->
+    <style name="edit_circle_b_accent_gray">
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:background">@drawable/sel_edit_circle_b_accent_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <!-- 圆角文本输入框-->
+    <style name="edit_corner_b_accent_gray">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:background">@drawable/sel_edit_corner_b_accent_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 底线文本输入框-->
+    <style name="edit_bottomLine_accent_gray">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:drawableBottom">@drawable/sel_edit_line_gray_white</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textColorHint">@color/textThirdly</item>
+    </style>
+
+    <!-- 圆边发送按钮 -->
+    <style name="btn_send">
+        <item name="android:background">@drawable/sel_circle_f_accent_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <!--渐变按钮-->
+    <style name="btn_gradient">
+        <item name="android:background">@drawable/sel_btn_circle_fg_user</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:layout_marginLeft">60dp</item>
+        <item name="android:layout_marginRight">60dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="btn_next">
+        <item name="android:background">@drawable/shap_circle_f_accent_white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 圆角发送按钮 -->
+    <style name="btn_send_corner_transparent">
+        <item name="android:background">@drawable/sel_corner_f_accent_gray_transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textColor">@color/sel_text_white_gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 圆角发送按钮 -->
+    <style name="btn_send_corner">
+        <item name="android:background">@drawable/sel_corner_f_accent_gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">@dimen/font_title</item>
+    </style>
+
+    <style name="btn_send_corner_white">
+        <item name="android:background">@drawable/shap_corner_5_b_accent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 获取验证码按钮 -->
+    <style name="tv_code">
+        <item name="android:background">@drawable/sel_circle_f_accent_gray</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- 主页radioButton -->
+    <style name="rb_home">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/sel_rb_accent_gray</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 带箭头的TextView -->
+    <style name="tv_arrow">
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:drawableRight">@mipmap/ic_more</item>
+    </style>
+
+    <!-- 权重TextView-->
+    <style name="tv_weight">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 权重TextView，白字， accent底 -->
+    <style name="tv_weight_tWhite_bAccent" parent="tv_weight">
+        <item name="android:background">@drawable/sel_btn_send</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 权重TextView，accent字， 白底 -->
+    <style name="tv_weight_tAccent_bWhite" parent="tv_weight">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- 底部确认TextView，白字， accent底 -->
+    <style name="tv_bottom_tWhite_bAccent">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/sel_rect_f_accent_gray</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 圆角TextView-->
+    <style name="tv_corner">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 圆角TextView，白字， accent底 -->
+    <style name="tv_corner_tWhite_bAccent" parent="tv_corner">
+        <item name="android:background">@drawable/shap_corner_5_f_accent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 圆角TextView，accent字， 白底 -->
+    <style name="tv_corner_tAccent_bWhite" parent="tv_corner">
+        <item name="android:background">@drawable/shap_corner_5_f_white</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- 圆形TextView-->
+    <style name="tv_circle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 圆形TextView，白字， accent底 -->
+    <style name="tv_circle_tWhite_bAccent" parent="tv_circle">
+        <item name="android:background">@drawable/shap_circle_f_accent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 圆形TextView，白字， accent底 -->
+    <style name="tv_circle_tAccent_bWhite" parent="tv_circle">
+        <item name="android:background">@drawable/shap_circle_f_white</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!-- 圆形TextView，黑字， gray底 -->
+    <style name="tv_circle_tBlack_blGraye" parent="tv_circle">
+        <item name="android:background">@drawable/shap_circle_f_lgray</item>
+        <item name="android:textColor">@color/textPrimary</item>
+    </style>
+
+    <!-- checked属性样式-->
+    <style name="cb_corner">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="cb_corner_tWhiteBlack_bRedLGray" parent="cb_corner">
+        <item name="android:background">@drawable/sel_cb_corner_5_f_accent_gray</item>
+        <item name="android:textColor">@color/sel_cb_white_black</item>
+    </style>
+
+
+    <!-- View style E-->
+
+    <!---->
+    <style name="DialogHint" parent="android:style/Theme.Dialog">
+
+        <!-- 第二个就是弹出dialog后，下面的activity层的颜色啦-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--这里设置为没有标题栏，如果这里不设置的话，你会发现无论布局怎么改都会出现多一栏白色 -->
+        <item name="android:windowNoTitle">true</item>
+
+    </style>
+
+    <style name="main_menu_animstyle">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="transparentFrameWindowStyle" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/photo_choose_bg</item>
+    </style>
+
+    <!--通用 B-->
+
+    <style name="Widget_Verify_Code_EditText">
+        <item name="android:inputType">number</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:digits">0123456789</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:theme">@style/Verify_Code_EditText</item>
+    </style>
+
+    <style name="Verify_Code_EditText">
+        <item name="colorControlNormal">@color/textSecondary</item>
+        <item name="colorControlActivated">@color/textPrimary</item>
+    </style>
+
+    <style name="Widget_Tool_Bar_Button">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="dialog_scale_anim">
+        <item name="android:windowEnterAnimation">@anim/slide_in_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_top</item>
+    </style>
+
+    <style name="dialog_from_bottom_anim">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+
+</resources>

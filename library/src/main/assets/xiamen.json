@@ -1,0 +1,77 @@
+[
+{
+    "AREA_ID": 1168,
+    "NAME": "福建省",
+    "FID": 0,
+    "SORT": 13,
+    "LONGITUDE": 119.3062400,
+    "LATITUDE": 26.0753020,
+    "PINYIN": "fujian",
+    "FIRST": "F"
+  },
+  {
+    "AREA_ID": 1183,
+    "NAME": "厦门市",
+    "FID": 1168,
+    "SORT": 0,
+    "LONGITUDE": 118.1102200,
+    "LATITUDE": 24.4904750,
+    "PINYIN": "xiamen",
+    "FIRST": "X"
+  },
+  {
+    "AREA_ID": 1189,
+    "NAME": "翔安区",
+    "FID": 1183,
+    "SORT": 0,
+    "LONGITUDE": 118.2478300,
+    "LATITUDE": 24.6186300,
+    "PINYIN": "xiang an",
+    "FIRST": "X"
+  },
+  {
+    "AREA_ID": 1188,
+    "NAME": "同安区",
+    "FID": 1183,
+    "SORT": 0,
+    "LONGITUDE": 118.1519700,
+    "LATITUDE": 24.7230800,
+    "PINYIN": "tong an",
+    "FIRST": "T"
+  },{
+    "AREA_ID": 1187,
+    "NAME": "集美区",
+    "FID": 1183,
+    "SORT": 0,
+    "LONGITUDE": 118.0971900,
+    "LATITUDE": 24.5758400,
+    "PINYIN": "jimei",
+    "FIRST": "J"
+  },{
+    "AREA_ID": 1185,
+    "NAME": "海沧区",
+    "FID": 1183,
+    "SORT": 0,
+    "LONGITUDE": 118.0328900,
+    "LATITUDE": 24.4846100,
+    "PINYIN": "haicang",
+    "FIRST": "H"
+  },{
+    "AREA_ID": 1186,
+    "NAME": "湖里区",
+    "FID": 1183,
+    "SORT": 0,
+    "LONGITUDE": 118.1462100,
+    "LATITUDE": 24.5125300,
+    "PINYIN": "huli",
+    "FIRST": "H"
+  },{
+    "AREA_ID": 1184,
+    "NAME": "思明区",
+    "FID": 1183,
+    "SORT": 0,
+    "LONGITUDE": 118.0823300,
+    "LATITUDE": 24.4454300,
+    "PINYIN": "siming",
+    "FIRST": "S"
+  }]

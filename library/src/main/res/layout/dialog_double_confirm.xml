@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shap_corner_6_f_white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="发货"
+        android:textColor="@color/textPrimary" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="请输入物流公司名字"
+        android:maxLength="20"
+        android:padding="16dp"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/textThirdly"
+        android:textSize="14sp" />
+
+    <View style="@style/Divider_Horizontal_Margin" />
+
+    <EditText
+        android:id="@+id/edit_id"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="请输入物流单号"
+        android:maxLength="13"
+        android:padding="16dp"
+        android:textColor="@color/textPrimary"
+        android:textColorHint="@color/textThirdly"
+        android:textSize="14sp" />
+
+    <View style="@style/Divider_Horizontal_Margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shap_rect_f_accent"
+            android:gravity="center"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

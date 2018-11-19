@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/white</color>
+    <color name="colorAccent">@color/red</color>
+    <color name="colorAccentTransparent">#99EB1C1C</color>
+    <color name="colorAccentDark">#FF1C1C</color>
+    <color name="colorBlue">#3C81FF</color>
+    <color name="colorOrange">#F8CE7F</color>
+    <color name="colorTitleText">#312E27</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="green_white">#67AB96</color>
+    <color name="white_app_store">#FFFAFAFA</color>
+    <color name="divider">#f1f1f1</color>
+    <color name="danfen">#ffecec</color>
+
+    <color name="color_999">#999999</color>
+    <color name="color_666">#666666</color>
+    <color name="color_333">#333333</color>
+
+    <!--banner B-->
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <!--banner E-->
+
+    <!-- 字体颜色 -->
+    <color name="textPrimary">#333333</color>
+    <color name="textSecondary">#676767</color>
+    <color name="textThirdly">#B1B1B1</color>
+    <color name="textGreen">#087854</color>
+    <color name="textMoney">#FE2166</color>
+    <color name="textDanfen">#FB9B6B</color>
+
+
+    <color name="background">#F5F5F5</color>
+    <color name="background_drak">#E5E5E5</color>
+    <color name="background_black">#3E4347</color>
+
+    <!-- 底部栏 -->
+    <color name="bg_bottom_bar">#FAFAFA</color>
+    <!-- 搜索栏 -->
+    <color name="bg_search_bar">#F2F2F2</color>
+
+    <color name="disable">#B1B1B1</color>
+    <color name="link">@color/blue</color>
+
+    <!--透明-->
+    <color name="transparent">#0000</color>
+    <color name="green">#1ADA64</color>
+    <color name="black">#FF000000</color>
+    <color name="green_shallow">#A4E6C0</color>
+    <color name="green_dark">#56C79B</color>
+    <color name="grey">#474751</color>
+    <color name="grey_light">#F5F5F5</color>
+    <color name="red">#EB1C1C</color>
+    <color name="blue">#27649F</color>
+    <color name="sky_blue">#0073F7</color>
+    <color name="color_fd">#8254FD</color>
+    <color name="color_f77d1a">#FFFF00</color>
+    <color name="color_ffc805">#ffc805</color>
+
+    <color name="color_6ce0cd">#6CE0CD</color>
+    <color name="color_30a3fe">#30A3FE</color>
+    <color name="color_52B2FF">#9952B2FF</color>
+    <color name="color_FFD700">#FFD700</color>
+
+    <color name="color_3c82fe">#3C82FE</color>
+    <color name="color_51b3fe">#51B3FE</color>
+    <color name="color_038973">#038973</color>
+</resources>

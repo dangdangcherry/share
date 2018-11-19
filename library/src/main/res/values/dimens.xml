@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="font_title_large">21sp</dimen>
+    <dimen name="font_title">18sp</dimen>
+    <dimen name="font_sub_title">15sp</dimen>
+    <dimen name="font_tips">13sp</dimen>
+    <dimen name="font_content">16sp</dimen>
+    <dimen name="font_content_small">14sp</dimen>
+    <dimen name="font_bigcontent">18sp</dimen>
+    <dimen name="font_middlecontent">30sp</dimen>
+    <dimen name="font_largecontent">60sp</dimen>
+    <dimen name="font_tips_big">16sp</dimen>
+    <dimen name="action_bar_size">48dp</dimen>
+
+    <dimen name="activity_horizontal_margin">12dp</dimen>
+    <dimen name="activity_vertical_margin">12dp</dimen>
+
+    <!--banner B-->
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--banner E-->
+
+    <dimen name="qr_width">88dp</dimen>
+    <dimen name="qr_height">88dp</dimen>
+
+</resources>

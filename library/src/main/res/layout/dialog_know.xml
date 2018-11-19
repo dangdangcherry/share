@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp"
+    android:layout_marginLeft="26dp"
+    android:layout_marginRight="26dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shap_corner_5_f_white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="提示"
+            android:textColor="@color/textPrimary"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.5"
+            android:padding="20dp"
+            android:textColor="@color/textPrimary"
+            android:textSize="14sp"
+            tools:text="是否开启自动扣费功能，开启该功能需实名认证并绑定车牌号码，以确保您驾车出场时系统自动结算停车费用，无障碍同行。" />
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            style="@style/btn_gradient"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="确定" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
